@@ -174,6 +174,7 @@ public class ShapeSet
     public static final EnumSet<Shape> BlackNoteHeads = EnumSet.of(
             NOTEHEAD_DIAMOND_FILLED,
             NOTEHEAD_TRIANGLE_DOWN_FILLED,
+            NOTEHEAD_CIRCLE_X,
             NOTEHEAD_BLACK,
             NOTEHEAD_BLACK_SMALL);
 
@@ -198,7 +199,8 @@ public class ShapeSet
             WHOLE_NOTE_SMALL,
             WHOLE_NOTE_CROSS,
             WHOLE_NOTE_TRIANGLE_DOWN,
-            WHOLE_NOTE_DIAMOND);
+            WHOLE_NOTE_DIAMOND,
+            WHOLE_NOTE_CIRCLE_X);
 
     /** All heads with a stem. */
     public static final EnumSet<Shape> StemHeads = EnumSet.of(
@@ -211,7 +213,8 @@ public class ShapeSet
             NOTEHEAD_DIAMOND_FILLED,
             NOTEHEAD_DIAMOND_VOID,
             NOTEHEAD_TRIANGLE_DOWN_FILLED,
-            NOTEHEAD_TRIANGLE_DOWN_VOID);
+            NOTEHEAD_TRIANGLE_DOWN_VOID,
+            NOTEHEAD_CIRCLE_X);
 
     /** All heads. */
     public static final List<Shape> Heads = Arrays.asList(
@@ -230,7 +233,9 @@ public class ShapeSet
             WHOLE_NOTE_DIAMOND,
             NOTEHEAD_TRIANGLE_DOWN_FILLED,
             NOTEHEAD_TRIANGLE_DOWN_VOID,
-            WHOLE_NOTE_TRIANGLE_DOWN);
+            WHOLE_NOTE_TRIANGLE_DOWN,
+            NOTEHEAD_CIRCLE_X,
+            WHOLE_NOTE_CIRCLE_X);
 
     /** Void heads. */
     public static final List<Shape> VoidHeads = Arrays.asList(
@@ -244,7 +249,8 @@ public class ShapeSet
             NOTEHEAD_DIAMOND_VOID,
             WHOLE_NOTE_DIAMOND,
             NOTEHEAD_TRIANGLE_DOWN_VOID,
-            WHOLE_NOTE_TRIANGLE_DOWN);
+            WHOLE_NOTE_TRIANGLE_DOWN,
+            WHOLE_NOTE_CIRCLE_X);
 
     /** All compound notes. */
     public static final List<Shape> CompoundNotes = Arrays.asList(
@@ -283,7 +289,9 @@ public class ShapeSet
             NOTEHEAD_DIAMOND_FILLED,
             WHOLE_NOTE_TRIANGLE_DOWN,
             NOTEHEAD_TRIANGLE_DOWN_VOID,
-            NOTEHEAD_TRIANGLE_DOWN_FILLED);
+            NOTEHEAD_TRIANGLE_DOWN_FILLED,
+            NOTEHEAD_CIRCLE_X,
+            WHOLE_NOTE_CIRCLE_X);
 
     //----------------------------------------------------------------------------------------------
     // Below are predefined instances of ShapeSet, meant mainly for UI packaging.
